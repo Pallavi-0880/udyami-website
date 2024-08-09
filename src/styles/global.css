@@ -1,0 +1,614 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Mochiy Pop One");
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+body {
+    background-color: #202022;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+  
+ 
+  
+  
+/*----------------------- home main content ---------------------- */
+
+  
+  .main-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+  }
+  
+  .container1 {
+   text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+   
+  }
+  
+  .box {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .box h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 2.9rem;
+   
+  }
+  
+  .box h2 span {
+    color: yellowgreen;
+  }
+  
+ 
+  .box1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 8%;
+  }
+  
+  .container2 {
+    text-align: center;
+    max-width: 800px;
+    margin-top: 1.5rem;
+  }
+  
+  .container2 h1 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  .container2  span {
+    color: yellowgreen;
+    
+  }
+  
+  .container2 p {
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .container1 {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 3rem;
+    }
+  
+    .box, .box1 {
+      width: 50%;
+      text-align: center;
+    }
+    .box1 img{
+      border-radius: 5rem;
+    
+    }
+  
+    .box h2 {
+      font-size:3rem;
+    }
+  
+    .container2 h1 {
+      font-size:4rem;
+    }
+    
+    .container2 p {
+      font-size: 1.5rem;
+    }
+  }
+  
+  
+  
+ 
+/*------ --------------About page -------- */
+
+.cards-container {
+    width: 100%;        
+    margin-top: 4.8rem;
+  
+}
+
+.card {
+    width: 100%;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5rem;
+    border-radius: 10px;   
+}
+.card-content img {
+   width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+   
+    
+}
+.card-text-left {
+    width: 50%;   
+   margin-left: 20px;
+   color: white;
+}
+.card h2 {
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: yellowgreen;
+    
+}
+.card h3 {
+    font-weight: 800;
+    font-size: 0.8rem;
+   margin-top: 5px;
+    
+}
+
+.card p {
+    color: white;
+    font-size: 0.7rem;
+    margin-top: 6px;
+  
+}
+.card  a i{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+i:hover{
+  color: white;
+  background-color: yellowgreen ;
+}
+.card-text-right{
+    width: 50%; 
+   margin-left: 20px;
+   color: white;   
+}
+
+.card  a {
+  text-decoration: none;
+    color: yellowgreen;
+
+}
+
+@media (min-width: 768px){
+  .card-content img {
+     width: 22rem;
+     height: 22rem;
+    
+  }
+  .card h2 {
+    font-size: 3.8rem;    
+  }
+  .card h3 {  
+    font-size: 2rem;   
+ }
+ .card p {
+   font-size: 1.5rem;
+ }
+ .card  a i{
+  font-size: 2.9rem;
+ }
+}
+
+
+
+/*----------------------- support page--------  */
+.support-container {
+    margin-top: 5rem;
+    width: 100%;  
+}
+
+.support-card {
+    width: 100%;
+    color: white;
+}
+
+.support-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 40px;
+}
+
+.support-content img {
+    border-radius: 50%;
+    width: 15rem; 
+    height: auto;
+    margin-top: 0;
+}
+
+.support-content h2 {
+    font-size: 1.9rem;
+    color: yellowgreen;
+    margin-top: 20px;
+}
+
+.support-content h3 {
+    font-size: 1rem;
+    color: white;
+    margin-top: 8px;
+}
+
+.support-content p {
+    font-size: 1rem;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.support-content a {
+    color: yellowgreen;
+}
+
+.support-content a i {
+    color: yellowgreen;
+    font-size: 1.6rem;
+    margin: 10px;
+    width: 3rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.support-content a i:hover{
+  color: white;
+  background-color: yellowgreen;
+}
+
+
+
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .support-content img {
+        width: 25rem;
+        height: 25rem;
+    }
+    .support-content h2 {
+      font-size: 3rem;      
+  }
+  .support-content h3 {
+    font-size: 2rem;
+   
+  }
+  .support-content p {
+    font-size: 1.7rem;
+  }
+  .support-content a i {
+    font-size: 3rem;
+  }
+   
+}
+
+
+
+
+/*---------- project page----------------- */
+/* Reset CSS */
+
+.project-container {
+   width: 100%;
+   color: white;
+   margin-top: 5.2rem;
+}
+.project-container h1{
+    text-align: center;
+    color: yellowgreen;
+    font-size: 1.5rem;
+}
+.project-container p{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+.first-project{ 
+  margin-top: 5%;
+}
+.first-project div{  
+    margin: 20px;
+    
+}
+.first-project p{
+   font-size: 1rem; 
+   text-align:center ; 
+   margin-top: 0.5rem;
+}
+.first-project p a{
+    color: yellowgreen;
+    margin: 10px;
+}
+.first-project h2{
+    color: yellowgreen;
+    font-size: 1.9rem;
+   text-align: center;
+}
+.first-project img{
+  width: 15rem ; 
+  /* height: 15rem; */
+  margin-left: 1rem;
+}
+
+
+@media (min-width: 768px) {
+  .project-container h1{
+    font-size: 4rem;
+  }
+  .project-container p{
+    font-size: 1.5rem;
+  }
+  .first-project{ 
+   display: flex;
+   gap: 2rem;
+   margin: 2rem;
+  align-items: center;
+  }
+  .first-project img{
+    width: 20rem ; 
+    height: 30rem;
+  }
+  .first-project h2{
+    color: yellowgreen;
+    font-size: 3rem;
+   text-align: center;
+}
+}
+
+
+
+
+/*------------- footer page-------------- ------ */
+hr{
+    margin-top: 7%;
+}
+footer {
+    background-color: #202022;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    margin-top: 2%;
+  }
+  
+  .footer-box1, .footer-box2, .footer-box3 {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footer-img img {
+    height: 5rem;
+    width: 5rem;
+    /* max-width: 150px;
+    height: auto;
+    margin: 0 auto; */
+  }
+  
+  .footer-box1 p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .icon-link i {
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    color:yellowgreen;
+    transition: color 0.3s;
+  }
+  
+  .icon-link i:hover {
+    color:white;
+    background-color: yellowgreen;
+  }
+  .icon-text :hover{
+    color: #ffffff;
+  }
+  
+  .footer-box2, .footer-box3 {
+    text-align: left;
+  }
+  
+  .footer-box2 h1, .footer-box3 h1 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .footer-box2 h1 span, .footer-box3 h1 span {
+    color: yellowgreen;
+  }
+  
+  .footer-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-item ul li {
+    margin: 8px 0;
+    color: white;
+  }
+  
+  .icon-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .icon-text i {
+    margin-right: 10px;
+    color: yellowgreen;
+  }
+  
+  .footer-contact-text {
+    font-size: 1em;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-box1, .footer-box2, .footer-box3 {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .footer-box1 p, .footer-contact-text {
+      font-size: 0.8em;
+    }
+  
+    .footer-box2 h1, .footer-box3 h1 {
+      font-size: 1.2em;
+    }
+  
+    .icon-link i {
+      font-size: 20px;
+    }
+  
+    .footer-item ul li {
+      font-size: 0.9em;
+    }
+    .footer-img img{
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+  
+/*------------------ contact------------------ */
+
+.contact-container {
+  width: 100%; 
+}
+.contact-container h1 {
+color: yellowgreen;
+text-align: center;  
+font-size: 2.5rem;
+margin-top: 5rem;
+}
+
+.information-container h2 {
+  color: white;
+  font-size: 1rem; 
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #000;
+  text-align: center;   
+  margin-top: 2rem;
+}
+
+.information-container span {
+  color: yellowgreen;
+}
+.information-container {
+  width: 100%;
+  background-color: #202025; 
+}
+
+.contact-udyami {    
+  background-color: #202025;   
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-card {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;   
+  width: 15rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-card i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: yellowgreen;
+}
+
+.contact-card i:hover {
+  color: #ffffff; /* Change this to the color you want on hover */
+}
+
+.contact-card span {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 764px) {
+.contact-udyami {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.contact-container h1 {
+  font-size: 5rem;
+}
+.contact-card {
+  width: 17rem;
+  height: 15rem;
+}
+.contact-card i {
+  font-size: 2rem;
+}
+.contact-card span {
+  font-size: 1.3rem;
+}
+.text {
+  margin-top: 14rem;
+}
+.contact-container img {
+  height: 50rem;
+}
+.contact-container h2 {
+  font-size: 3rem; 
+}
+.contact-container h1 {
+  font-size: 4rem; 
+}
+}
