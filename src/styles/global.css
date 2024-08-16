@@ -14,10 +14,6 @@ body {
 }
 
 
-
-  
- 
-  
   
 /*----------------------- home main content ---------------------- */
 
@@ -139,10 +135,9 @@ body {
 .card-content img {
    width: 6rem;
     height: 6rem;
-    border-radius: 50%;
-   
-    
+    border-radius: 10%;  
 }
+
 .card-text-left {
     width: 50%;   
    margin-left: 20px;
