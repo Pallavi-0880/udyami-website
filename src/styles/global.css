@@ -130,17 +130,17 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 2.5rem;
-    border-radius: 10px;   
+    border-radius: 10px;  
+    box-shadow: 1px 2px 3px 1px #313030; 
 }
 .card-content img {
-   width: 6rem;
-    height: 6rem;
-    border-radius: 10%;  
+   width: 8rem;
+    height: 8rem;
+    border-radius: 10%;
 }
-
 .card-text-left {
     width: 50%;   
-   margin-left: 20px;
+   /* margin-left: 20px; */
    color: white;
 }
 .card h2 {
@@ -183,13 +183,37 @@ i:hover{
 
 }
 
-@media (min-width: 768px){
+@media (min-width: 668px){
+  .card-content img {
+     width: 18rem;
+     height: 18rem;
+    
+  }
+  .card h2 {
+    font-size: 2.8rem;    
+  }
+  .card h3 {  
+    font-size: 1.5rem;   
+ }
+ .card p {
+   font-size: 1rem;
+ }
+ .card  a i{
+  font-size: 2rem;
+ }
+}
+
+
+@media (min-width: 1068px){
   .card-content img {
      width: 22rem;
      height: 22rem;
     
   }
-  .card h2 {
+  .card{
+    width: 3;
+  } 
+   .card h2 {
     font-size: 3.8rem;    
   }
   .card h3 {  
@@ -201,9 +225,23 @@ i:hover{
  .card  a i{
   font-size: 2.9rem;
  }
+
+ .card {
+  margin: auto;
+  width: 80%;
+  display: flex;    
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2.5rem;
+  border-radius: 10px;  
+  box-shadow: 1px 2px 3px 1px #313030; 
 }
-
-
+.card-text-left {
+  width: 50%;   
+ /* margin-left: 20px; */
+ color: white;
+}
+}
 
 /*----------------------- support page--------  */
 .support-container {
