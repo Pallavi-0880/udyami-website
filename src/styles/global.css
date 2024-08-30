@@ -477,6 +477,10 @@ hr {
     transition: color 0.3s;
   }
 }
+.social-icons a i:hover{
+  background-color: yellowgreen;
+  color: white;
+}
 
 .container {
   width: 80%;
@@ -629,4 +633,28 @@ hr {
   .contact-container h1 {
     font-size: 4rem;
   }
+}
+
+/* ------------------Our Services page------------------------------ */
+.services-container{
+  margin-top: 30%;
+}
+.services-container h1{
+  color: yellowgreen;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+
+@media (min-width:764px) {
+  .services-container h1{
+    font-size: 2.5rem;
+    padding: 0;
+  }
+  .services-container{
+    margin-top: 10%;
+  }
+  
 }
